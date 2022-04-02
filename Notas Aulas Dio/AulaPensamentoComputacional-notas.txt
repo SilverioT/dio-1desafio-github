@@ -1,0 +1,387 @@
+Visao geral do pensamento computacional
+
+dividr um problema complexo em subproblemas
+4 pilares 
+Decomposicao -> (receita de bolo, quebra cabeça, busca binaria)
+Reconhecimento de padroes -> - Ações Sardinha(onde a maioria vai, eu vou) - Ethereum Correlação com o BitCoin, sempre o BitCoin Valoriza o Ethereum Valoriza
+Abstracao -> Pegar uma particularidade de um determinado cenário que ele se torne generalista. - C = 2pi.r (circunferencia) - Modelagem, Abstracao, Herança, Polimorfismo, Classes - 
+Design de algoritmos - Definir passo a passo a solução do problema - Input -> operator -> output - 
+
+Overview
+Processo contínuo
+
+*Definir uma solução
+*Testar a solução
+*Aperfeiçoamento da solução encontrada
+
+refinamento->teste->analise->refinamento->
+
+Overview
+
+1 Abstração (Habilidades Humanas) -> Resolução de Problemas
+2 Automatização (Habilidades Humanas)-> Expressão da solução
+3 Análise -> Execucação da solução e avaliação Refinamento (Recursos Computacionais)
+
+
+Variação dos pilares
+
+*Raciocínio lógico
+*Refinamento
+
+Pilares
+1. Computer Science + Math
+Desenvolvimento e abstração; reconhecimento de padrões
+
+2. Computer Science + Engenharia
+Análise de dados e design de soluções; definição e uso de abstrações; teste e refinamento de algoritmo
+
+
+Competências
+*Pensamento sistemático
+*Colaboração dentro da equipe
+*Criatividade e design
+*Facilitador
+
+Habilidades Complementares
+
+Raciocínio Lógico e Aperfeiçoamento
+Raciocínio Lógico: Forma de pensamento estruturado ou raciocínio, que permite encontra a conclusão ou determinar a resolução de um problema
+
+Habilidade de Treinamento
+
+Raciocínio Lógico
+3 tipos
+Indução -> Dado um fenomeno que eu estou observado, eu vou pegar aquela particularidade, aquele cenário especifico e vou determinar leis e teorias, baseado no que experimentei (Usado em Ciência Experimentais)
+Dedução -> Ocorre de forma inversa a indução, dado uma lei e uma teoria eu vou realizar uma dedução e realizar previsões e explicações (ciencias exatas)(algebra linear) 
+Abdução -> É um tipo de raciocínio que usa a conclusão para determinar a premissa: A grama está molhada, logo deve ter chovido. (Processo  Investigativo)(Diagnósticos)
+
+				Inferência
+			<^				^>
+		Sintética				Analítica
+	<^				^>						^>
+Abdução					Indução					Dedução
+
+*Aperfeiçoamento
+
+Melhoramento
+Ato de Aperfeiçoar
+Apromoramento
+Refinamento
+
+A Partir de uma solução, você possa determinar pontos de melhora e refinamento
+
+Ato de aperfeiçoar
+*Encontrar Solução Eficiente			> Melhor uso de recursos
+*Otimizar Processos						> Melhor uso de recursos
+*Simplificar linhas de códigos		> Melhorar códigos e algoritmos
+*Funções bem definidas				> Melhorar códigos e algoritmos
+
+*Aperfeiçoamento
+-Processo contínuo
+-Presente em todas as etapas
+
+Vantagens:
+*Maior compreensão
+*Mais eficiência
+*Menos tempo
+*Menos armazenamento
+
+--- Pilares do Pensamento Computacional
+Decomposição
+Se vc tem um problema que não dá para resolver, então existe um problema que é mais simples que vc pode resolver. Encontre-o.
+
+Primeiro Passo da resolução de problemas dentro do conceito de pensamento computacional
+
+Dado um problema complexo, devemos quebra-lo em problemas menores. Portanto problemas mais fáceis e gerenciáveis.
+
+Estratégia 1 Parte : Análise
+Estudar, explorar -> realizar exame detalhado -> Decompor em elementos constituintes
+
+2 Parte: Síntese
+Processo de reconstrução -> Fundir os elementos de maneira coerente -> Consiste em reunir elementos distintos em um único elemento
+
+Ordem da execução das tarefas? Sequencial/Paralelo
+Na forma sequencial existe uma dependencia ou uma ordem (fila)
+Na forma Paralelo conseguimos realizar as tarefas de uma forma concomitante, nós parelelizamos o problema (bom p/ poder computacional) +Eficiência e - Tempo
+
+Decomposição nos dá a seguinte ferramenta
+Detectar as variáveis e segmentar esse grande problema em problemas pequenos
+
+*Não basta aplicar
+*Desenvolver a decomposição por si mesmo
+
+Como decompor? Entenda o problema
+
+Deixa o problema principal em segundo plano
+
+Identifique os componentes e identifique as características, dependências
+
+
+Como Decompor?
+Identificar/coletar dados -> Agregar os dados -> Funcionalidade
+
+Exemplos:
+Ex Cotidiano: Cozinhar
+*Identificar os ingredientes
+*Determinar as etapas (sequência ou paralelo)
+*Executar cada etapa
+*Agregar os ingredientes para finalizar (Recompor com coerência)
+
+Ex do Cotidiano: Funcionamento de uma bike
+
+*Identificar os componentes		>
+*Papel de cada componente		>	Funcionamento do 
+*Interdependência das peças		>		Sistema
+
+Exemplo: Criar um App
+
+*Finalidade				>
+*Interface				>	Definição de Componentes e 
+*Funcionalidades		>			Etapas
+*Pré-requesitos			>
+
+Gera um desenvolvimento mais eficiente
+
+Exemplo: Artigo
+
+*O que será abordado		>
+*Estrutura					>	Definição de Componentes e
+*Conteúdo de cada tópico	>			Etapas
+*Textos de conexão			>
+Sequêncial ou paralelo/ em ordem ou não
+
+Decomposição
+Exemplo: Movimento de um avatar (Jogo)
+
+									Ações
+					V<									>V
+				Padrão									Movimento
+			V>				<>					<V		>V			<V			<V
+		Virar				Mover			Andar		Correr		Sentar		Levantar
+		V		V		<V			V>					<V	V>
+	Direita	Esquerda	Cima		Baixo		Mover Perna	Impulsionar
+	
+
+
+2 - Reconhecimento de padrões
+
+*Modelo base
+*Estrutura invariante
+*Repetição
+
+Ele vêm de duas formas -> Similaridades e Diferenças
+
+Ex. Fotos de redes sociais
+Compressão das fotos, otimiza armazenamento
+
+Ex. Compressão de dados
+[LA][LA][LA][AZ][AZ][AN][PR][PR][AM]
+[3LA][2AZ][AM][2PR][AM}
+
+Ser humano consegue inerentemente dividir em padrões p/ coisas que já conhecemos
+Ex. Frutas e doces (ambos sao comidas)
+
+Porque determinar padrões?
+É uma maneira de generalizar, com objetivo de obter resolução para problemas diferentes
+
+Classificação de objetos
+Dependem do dominio, Tipo de midia, categorias, classes
+
+Como o computador reconhece padrões?
+Pelo ser humano
+*Grau de similaridade
+*Grupos conhecidos x objeto desconhecido
+*Comparação
+
+
+Através do computador
+*Representação de atributos
+*Aprendizado - Conceito associado ao objeto
+*Armazenar dados
+*Regras de decisão
+
+Reconhecimento de padrões traz características de um problema, você classifica esses dados
+utilizando métodos distintos e aplicá-los em contextos diferentes.
+Isso é um tema de estudo
+
+Aplicações
+*Classificação de dados
+*Reconhecimento de imagem
+*Reconhecimento de fala
+*Análise de cenas
+*Classificação de documentos
+
+->Machine Learning<-
+->Redes Neurais<-
+->Inteligência Artifical<-
+->Ciência de dados<-
+
+3 - Abstração
+
+Generalização / Abstração
+
+Abstrair: Observar, um ou mais elementos, avaliando características e propriedades em separado
+Abstração: Processo intelectual de isolamento de um objeto da realidade
+Generalizar: Tornar-se geral, mais amplo, extender
+
+Generalização, na lógica é a operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenômenos similares.
+
+Como classificar esses dados
+
+*Características
+*Pontos Essenciais
+*Generalizar x Detalhar
+
+Representarção de dados
+
+Estudantes -> Características
+Pontos essenciais
+*Nome Completo
+*Matrícula
+*Endereço
+*Campus
+*Curso
+*Telefone
+*Email
+->Não interessa
+*Trabalho
+*Tem filhos
+*Programa Preferido
+*Livro Preferido
+*Tamanho do Calçado
+
+Conceitos que utilizam abstração
+
+Diversos conceitos em computação abseado em abstraçÕes
+Algoritmos: Merge Sort, Clustering, Busca Binária
+
+Árvore, Lista, Grafos
+
+Máquinas de estado Finito
+
+Linguagens de Programação
+
+
+Comunicação -> Redes
+Broadcast, sincrona, assincrona.
+
+Arquitetura Paralela
+
+Arquiteturas em camdas, arquiteturas ponto a ponto, dock,
+
+Exemplos
+
+4 - Algoritmos (Principal pillar dentro do Pensamento Computacional)
+
+Computador (qualidades) mas não opera sozinho, precisa de instruções detalhadas
+*Energia
+*Trabalhador
+*Eficiência
+*Rapidez
+
+Processamento de dados
+O computador recebe, manipula e armazena dados
+"Programas"
+Programas possuem instruções
+
+O processo de resolução de problemas step by step, utilizando instruções
+
+Desenvolvimento do Programa
+*Análise - Estudo e definição dos dados de entrada e saída
+*Algoritmo - Descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo
+*Códificação - O Algoritmo é codificado com a linguagem de programação escolhida
+
+* Algoritmo *
+Sequencia de passos com objetivo definido
+Execução de tarefas específicas
+Conjunto de operações que resultam em uma sucessão finita de ações
+
+Algoritmos - Aplicação de algoirtmos no dia-a-dia
+preparar um sanduiche
+trocar uma lampada
+trajeto ao trabalho
+fazer uma receita de bolo
+
+Como construir um algoritmo
+
+* Compreensão do problema -> Pontos mais importantes
+* Definição dados de entrada -> dados fornecidos e cenário
+* Definir processamento -> Cálculos e Restrições
+* Definir dados de saída -> Após processamento
+* Utilizar um método de construção -> Construção e refinamento do algoritmo
+* Teste e diagnóstico -> Construção e refinamento do algoritmo
+
+Construção de algoritmos (Não está codificado)
+Narrativa 		-> Utilização da linguagem natural (Sem conceitos novos) (Diversas interpretações possíveis)
+Fluxograma		-> Utilização de símbolos pré-definidos (Conhecimento prévio da estrutura e símbolos) (Simples entendimento)
+Pseudocódigo	-> Portugol (Regras Definidas) (Passos a serem seguidos)
+
+
+Aula 3: Estudo de caso
+Pensamento Computacional
+1- Estudos de caso 1
+
+2 - Estudo de caso 2
+Ex: Soma de nº entre 1 e 200
+1+2
+1+3
+1+4
+1+5
+Solução ineficiente
+
+Outra forma de expressar a solução
+200+1
+199+2
+198+3
+197+4
+196+5
+Isso é decomposição
+
+O padrão dessa soma sempre vai dar 201
+
+Como expressar isso de forma generalista
+Dado que o valor se repete, quantas vezes isso vai acontecer
+sendo que eu tenho um intervalo de 200 e 2 numeros
+Quer dizer que vai ser repetido 100x
+resultado = 201 x 100 = 20.100
+
+Expressar em variaveis
+[x, y] -> Intervalo
+y+x = resultado_parcial
+(y-1) + (x+1) = resultado_parcial
+
+y/2 = total => 100
+100 x 201 = 20.100 -> total x resultado_parcial = resultado
+
+outro ex
+Exemplo: Adivinho o número
+O problema consiste em determinar o número escolhido por uma pessoa dentro de um intervalo.
+Só pode perguntas de sim ou não.
+
+O número é 1?
+O numero é 2?
+O número é 3?
+Disperdício de tempo e ineficiente
+
+O numero é maior que 50?
+Não
+O numério é menos que 20?
+sim
+
+até encontrar o número
+busca binária- > Mais eficiente que busca por varredura (Método de busca)
+
+Ex. Busca Binária
+P1 - Ordenar o Vetor
+P2 -> Módulo de L/2
+P3 -> Acessar estrutura
+P4 -> Comparar valores
+P5 -> Repita até encontrar o número
+P6 -> Imprima "Busca bem sucedida"
+
+Habilidade
+
+Como aprimorar essa habilidade.
+Permitindo que seus alunos expliquem suas decisões e seu processo de desenvolvimento (brennan e renesck)
+
+Para um problema proposto

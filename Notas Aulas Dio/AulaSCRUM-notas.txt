@@ -1,0 +1,336 @@
+
+Introdução  e ao SCRUm
+
+PSM I -> Professional Scrum Master I (Scrum.org)
+PMP -> Project Management Professional
+
+1. Conceitos básicos (20 min)
+
+Desafios do desenvolvimento de Software
+-Objetivos de negócio
+	->Requesitos
+		->
+			Concepção
+			Análise & Design
+			Desenvolvimento
+			Testes
+			Implantação
+			
+O Princípio de Pareto também se aplica ao desenvolvimento de software onde
+20% das funcionalidades costumam gerar 80% ou mais do benefício esperado.
+
+Gestão de Projetos Tradicional X Ágil
+Tradicional(Waterfall)
+Só Permite que o projeto avance quando uma fase está inteiramente completa.
+
+Requirement-> * Requirement Doc. * Prepare Use Cases
+	Design-> * Software Architecture * Map the stakeholders
+		Implementation-> * Construct the software * Data storage & retrieval
+			Verification-> * Install * Test and Debug
+				Maintenance-> *Check errors * Optimize capabilities
+				
+--------------------------------------------------------------------
+								"N"	Meses
+				
+Ágil: Software construído por partes (incremental) e cada parte executa-se em um ciclo (iterativo)
+
+|Requesitos	|Requesitos	|Requesitos	|Requesitos	|Requesitos	|
+|Análise	||Análise	|Análise	|Análise	|Análise	|
+|Construção	|Construção	|Construção	|Construção	|Construção	|
+|Testes		|Testes		|Testes		|Testes		|Testes		|
+|Liberação	|Liberação	|Liberação	|Liberação	|Liberação	|
+------------|-----------|-----------|-----------|-----------|----->
+			Mes1	   Mes2        Mes3        Mes4
+Tempo
+
+Tradicional (Waterfall)				|		Ágil
+---------------------------------------------------------------------
+Escopo definido na fase inicial		| Escopo definido ao longo do
+do Projeto (Preditivo)				| Projeto (Adaptativo)
+---------------------------------------------------------------------
+Projeto é controlado por fases 		| Projeto é controlado por 
+e marcos							| funcionalidades entregues
+---------------------------------------------------------------------
+Cliente só vê o software funcionando| Cliente pode ver aprte do software
+na fase Final do Projeto			| funcionando na parte inicial do
+									| Projeto.
+---------------------------------------------------------------------
+Resisência a Mudanças				| Mudanças constantes de acordo
+									| com feedbacks contínuos.
+---------------------------------------------------------------------
+
+Em projetos tradicionais, você corre o risco de descobrir que estava errado
+depois de meses. com o SCRUM, você descobre que estava errado em no máximo 30 dias.
+
+
+O que é ser ágil?
+	Ágil é diferente de Rápido.
+	
+* Rapidez(mudança) e desembaraço;
+* Fazer coisas complexas de forma simples;	
+* Equipe comprometida com os objetivos;
+* Maior valor para o cliente.
+
+Ter capacidade de responder rapidamente a mudancas.
+
+		SCRUM
+
+* SCRUM é um dos frameworks de gerenciamento de projetos ágeis;
+* Projetos usando equipes pequenas e multidisciplinares produzem os melhores resultados
+
+Pilares do SCRUM
+* Transparência, * Adaptação, * Inspiração *
+
+- Conversar mais e escrever menos;
+- Demonstrar o software constantemente aos usários e obter feedbacks constantes;
+- Requesitos mudam ao longo do tempo;
+- Apresender progressivamente com o uso do software.
+
+* Razões para adotar o SCRUM:
+-Desenvolvido e entregue em partes menores (2 a 4 semanas), com constante feedback dos usuários;
+-Melhor gerenciamento de riscos; (Redução de incertezas)
+-Comprometimento, motivação e transparência da equipe. (Daily Meeting);
+-Maior valor para o negócio; (Priorização do Backlog)
+-Usuários envolvidos durante todo o ciclo;
+-Aplicando das Lições aprendidas. (melhoria contínua)
+
+*Características do time SCRUM:
+-Equipes capazes de se auto-organizarem
+-As tarefas são do time e todos são responsáveis;
+-Forte compromentimento com os resultados.
+
+Curiosidade
+Porque as Startups utilizam framework ágil
+MVP -> Minimum Viable Product
+
+
+2. Papéis e Responsabilidades de cada um do time (10 min)
+
+3 Papéis: Product Owner (PO), Scrum Master (SM), Time de desenvolvimento (DEV) (3-9 Pessoas)
+
+
+* Product Owner
+- Representante da área de Negócios;
+- PO não é um Comitê;
+- Define as funcionalidades do software (Product Backlog);
+- Prioriza as funcionalidades de acordo com o valor do negócio;
+- Garante que o time de desenvolvimento entenda os itens do backlog no nível necessário
+
+* Scrum Master
+- Garantir o uso correto do SCRUM;
+- Scrum Master não é Gerente de Projetos;
+- Age como facilitador;
+- Auxilia o Product Owner no planejamento e estimativas do backlog;
+- Auxilia a equipe a remover impedimentos;
+- Treina o time em autogerenciamento e interdisciplinaridade
+
+* Time de Desenvolvimento
+- Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou
+seja, tudo que for necessário para entregar o software funcionando.
+
+3. Cerimônias do SCRUM (10 min)
+
+Time Box - Tempo máximo para fazer uma cerimônia ou Sprit.
+
+Cerimônias do SCRUM.
+
+Sprint = corrida, arrancada.
+É o principal evento do SCRUM.
+Duração de 1 Sprint:
+ - 30 dias corridos (ou menos)
+ 
+* Composição de uma Sprint
+- Planejamento da Sprint
+- Reuniões Diáris (Daily Meeting)
+- Revisão da Sprint (Review)
+- Retrospectiva da Sprint
+
+Exemplo Daily Meeting - Time Box: 15 minutos
+
+Quem participa de uma Sprint
+PO,SC,DEV
+Time Box: 8h (Sprint 30 dias)
+* O que fazer? (4h)
+(PO e Time DEV)
+Priorizou o backlog e vai explicar o que o time precisa entregar
+naquela sprint, explica as funcionalidades, o porque,
+o time de DEV vai tirar todas as dúvidas necessárias do negócio para realizar a sprint
+
+* Como fazer? (4h)
+(Time de Desenvolvimento)
+Quebra as atividades e entende tecnicamente o que tem que ser feito
+E o próprio time acaba estimando as atividades, pra entregar o q o PO deseja
+Verificam também o que é factível de entregar para o PO naquela sprint
+
+Planning Poker (utiliza baralho)-quero mais infos
+
+* Reuniões Diárias (Daily Meeting) (Time-box: 15min)
+DEV,PO,SM
+3 Perguntas
+Time de DEV - O que fez no dia anterior, O tá programado para o dia e se têm algum impedimento
+A reunião é feita de pé no mesmo horário que o time define e no mesmo local.
+Também é conhecida como StandUp Meeting
+
+Reunião em pé, facilita e encurta a reunião devido a não se sentir confortável
+
+Quadro Kanban
+O próprio time atualiza as tarefas
+Para Fazer -> Fazendo -> Feito
+To Do -> Doing -> Done
+
+Revisão da Sprint (Review)
+Time DEV apresenta para o PO o trabalho feito
+Time-box: 4h (Sprint 30 dias)
+PO pode levar stakeholders, mas todo o feedback que for falado o PO precisa priorizar pra próxima sprint
+O que o time dev apresenta o PO vai aceitar ou não e se aceitar já vai entrar em produção
+
+Reunião para Lições Aprendidas
+Transparência - Time-box: 3h (Sprint 30 dias)
+Time dev participa
+Todo mundo precisa ser transparente para apontar os erros que a equipe teve, seja em desenvolvimento ou seja na review
+ou seja no planejamento da sprint ou algo que não foi perguntado para o PO
+para que o time todo esteja comprometido e na próxima sprint não ocorra esses problemas.
+
+Para que todos estejam na mesma página e comprometidos.
+
+
+- Na Prática
+
+4 - Fundamentos de um projeto ágil
+
+Papéis e responsabilidades - Product Owner
+P.O representa o profissional que tem a visão do que será desenvolvido,
+as necessidades a serem atendidas, o público que vai utilizar os serviços
+e os objetivos a serem alcançados.
+
+PO pode cancelar a sprint
+e cabe a ele replanejar a sprint, com alguma entrega possível
+Spike(estudo quando da errado pra facilitar o processo)
+SM não é secretário do time.
+
+SM treina um time para remover ele do time hehe
+
+O que o PO faz
+Product Backlog
+
+Refining -> PO apresenta previamente o que sera desenvolvido e fazer questionamentos ao PO
+
+Planning precisa ser desenvolvida em 2 etapas
+
+Release Planning
+Liberação ou lançamento de software (release).
+Não é obrigatório de uma release ao final de cada sprint
+você pode acumular mais sprints.
+
+Existem 2 tipos de release planning
+
+*Release planning de múltiplas squads
+
+*Release planning de Projeto
+
+- Analisando o escopo e definindo prioridades
+
+1) MVP
+Product Backlog é composto por Épicos e Estórias
+Épicos = Incremento sem muito detalhamento, ajuda a te direcionar dos caminhos que deve seguir
+
+Estória = Detalhamento dos épicos, um épico normalmente se divide em várias estórias,
+onde ficam descritos o que deve acontecer e suas regras de negócio.
+
+Theme (example: a website)
+the createtion of the cart page -> epic
+User can add the necessáry items in his cart - User Stories
+User can remove the unnecessary items from the cart - User Stories
+Add the page and link 'cart'on the main website page - Task
+Add the button 'add to my acrt'after every item - Task
+Add the button 'remove from my cart' after every item - Task
+Add the button 'Open my cart' on every website page - Task
+
+*Escrevendo uma estória
+-Nome da Estória
+-Descrição da Estória (Eu, Como, Quero, Quando)
+-Regras de Negócio (Separar Regras de Front-end de Regras de Back-End)
+-Tela (link ou imagem das telas a serem desenvolvidas)
+-KPI (quais os objetivos/valor a estória precisa atingir)
+-Tagueamento (Como a estória será "Tagueada" para poder mensurar os KPI)
+-Critérios de Aceite (Qual o passo a passo de todos os caminhos Felizes possíveis a estória deve cumprir para que ela seja considerada aceita)
+
+Riscos Positivos
+Positivos = Muito ignorado nos projetos, porém um dos fatores de maiores ganhos no desenvolvimento de sistemas.
+Negativos = Itens que podem afetar o prazo, custo ou escopo de um projeto de maneira que pode acabar inviabilizando-o
+
+5 - Papel do PO na Transformação Digital
+
+Transformação digital é um processo no qual as empresas fazem uso da tecnologia
+para melhorar o desempenho, aumentar o alcance e garantir resultados melhores.
+É uma mudança estrutural nas organizações dando um papel essencial para a tecnologia.
+
+6 - Conceitos e atividades essenciais para o sucesso de um projeto ágil
+
+I. Estórias VS Tarefas
+	Épico
+	Estória -> Sempre em nível de negócio
+	Tarefa -> Conjunto de atividades que o time de desenvolvimento deve desenvolver para entregar a estória
+
+II. Critérios de Aceite, Estimativa e Planejamento de Tarefas
+
+É uma lista de critérios que precisam ser alncaçados para que a User Story atenda os requesitos
+do usuário e seja aceita pelo Product Owner.
+
+Os Critérios de aceitação têm objetivo de: definir limites para as user stories. Ajudar o PO a detalhar em alto nível o que é necessário para entregar valor ao cliente.
+
+- Estimativa e Planejamento
+
+- Planning Poker (Mais utilizado)(Recebe um deck com todas as cartas da seq de fib)
+1 é muito simples
+13 muito difícil
+
+Sempre que uma terefa recebe 20 os times percebem que a tarefa/historia estao grandes demais e precisam ser quebrada em menores
+Os que deram a maior e menor nota precisam justificar sua pontuação, pois podem ter percebido algo que o resto do time não tenha percebido
+
+- Planning Tshirt size (Tamanho de camisa)
+
+S | M | L | XL
+Também precisa justificar a pontuação
+
+- Planejamento
+
+III. Relacionamento com Clientes / Stakeholders
+
+O Stakeholder é uma pessoa ou um grupo que legitima as ações de uma organização e que tem um papel direto ou indireto na gestão e resultados dessa mesma organização.
+Desta forma, um stakeholder pdoe ser afetado positivamente ou negativamente, dependendo das suas políticas e forma de atuação.
+
+Cliente interno ou stakeholder, não necessariamente é o patrocinador do processo, mas pode ser um analista ou gerente do mesmo ramo.
+
+7 - Rotinas de um time ágil
+
+Daily e Retrospectiva
+Daily Stand-UP meeting -> What I did yesterday, what i'll do today, what's in my way? Timebox: 15min
+
+Retrospectiva - apenas 1 vez na sprint
+sempre na conclusão da sprint
+A presença do SM é obrigatória
+A presença do PO é muito importante mas não obrigatória
+Observações:
+
++O Que foi bom  -O que foi ruim -> Observações
+
+Fazer mais   - Tentar  - Fazer Menos -> Ações
+
+
+Refinamento - Cerimônia não oficial, para que o time
+Todos são necessários
+Tem finalidade de aumentar o entendimento do time para a estória
+A ideia falitar a planning e tornar ela mais assertiva
+
+
+Review -> Sprint Review Meeting
+Todos precisam estar presentes
+-> Time de desenvolvimento perguntar tudo que precisa
+E ver o que está sendo entregue e validar se está sendo entregue
+Verificar se a demanda agrega valor ao negócio.
+
+3 - Maturidade da Equipe
+Transparência - Comprimetimento + Coragem - Inspeção - Abertura + Foco + Respeito - Adaptação
+
+Pilares do Scrum
